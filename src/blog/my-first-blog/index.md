@@ -11,13 +11,15 @@ tags: ["blog", "first"]
 
 # My First Blog Post
 
-<br><br>
-Hello there! I'm Dávid Michalco, a passionate software engineer currently diving deep into the world of software development. This blog is my platform to share insights, experiences, and my journey through the tech world.
-<br><br>
-In my journey as a software engineer, I've developed a fondness for certain programming languages and technologies. I find myself particularly drawn to **JavaScript** and **Vue.js** for front-end development, relishing the dynamic and interactive web experiences they enable. My back-end work is often powered by **PHP**, a language I appreciate for its flexibility and robustness.
+Hello there! I'm David Michalco, a passionate software engineer currently diving deep into the world of software development. This blog is my platform to share insights, experiences, and my journey through the tech world.
 <br><br>
 
-Exploring **Machine Learning** has been a thrilling part of my career. Working with tools like **TensorFlow** on AWS, I've delved into the world of AI, fascinated by its potential to revolutionize how we interact with technology.
+In my journey as a software engineer, I've developed a fondness for certain programming languages and technologies. I find myself particularly drawn to **JavaScript** and **Vue.js** for front-end development, relishing the dynamic and interactive web experiences they enable. My back-end work is often powered by **PHP**, a language I appreciate for its flexibility and robustness.
+
+<br><br>
+
+# Exploring **Machine Learning** has been a thrilling part of my career. Working with tools like **TensorFlow** on AWS, I've delved into the world of AI, fascinated by its potential to revolutionize how we interact with technology.
+
 <br><br>
 
 `#JavaScript` `#Vue.js` `#PHP` `#MachineLearning`
