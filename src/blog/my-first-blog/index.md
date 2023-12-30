@@ -3,7 +3,7 @@ title: "My First Blog Post"
 date: "30-12-2023"
 author: "Dávid Michalco"
 description: "Why I started a blog and what I want to write about."
-img: /assets/profilepicture.jpg
+img: "/src/assets/blog/image.jpg"
 tags: ["blog", "first"]
 ---
 
@@ -14,6 +14,7 @@ tags: ["blog", "first"]
 Hello there! I'm David Michalco, a passionate software engineer currently diving deep into the world of software development. This blog is my platform to share insights, experiences, and my journey through the tech world.
 <br><br>
 
+`#SoftwareDevelopment` `#SoftwareEngineering` `#SoftwareEngineer`
 In my journey as a software engineer, I've developed a fondness for certain programming languages and technologies. I find myself particularly drawn to **JavaScript** and **Vue.js** for front-end development, relishing the dynamic and interactive web experiences they enable. My back-end work is often powered by **PHP**, a language I appreciate for its flexibility and robustness.
 
 <br><br>
