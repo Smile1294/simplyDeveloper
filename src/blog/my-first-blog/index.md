@@ -3,7 +3,7 @@ title: "My First Blog Post"
 date: "30-12-2023"
 author: "Dávid Michalco"
 description: "Why I started a blog and what I want to write about."
-img: "/src/assets/blog/image.jpg"
+img: "https://scontent-fra5-2.xx.fbcdn.net/v/t1.6435-9/71849973_2487811994787592_6835186395678507008_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=be3454&_nc_ohc=hTEDddZ82tIAX9O5bSH&_nc_ht=scontent-fra5-2.xx&oh=00_AfAFkY_piN3NL8E8XK9f7Lb3JAZ28_xwKL2eV3rXrW0jlA&oe=65B7B58C"
 tags: ["blog", "first"]
 ---
 
