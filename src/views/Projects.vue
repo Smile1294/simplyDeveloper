@@ -51,7 +51,16 @@ export default {
                 const postId = path.split('/')[2]; // Adjust this according to your path structure
                 const markdown = await import(`../projects/${postId}/index.md?raw`);
                 const { content, data } = matter(markdown.default || markdown);
-                allPosts.value.push({ ...data, id: postId, content: md.render(content), path });
+                let imgUrl = '';
+                if (data.img) {
+                    try {
+                        /* @vite-ignore */
+                        imgUrl = (await import(`../projects/${postId}/${data.img}`/* @vite-ignore */ )).default;
+                    } catch (e) {
+                        console.error('Failed to load image:', e);
+                    }
+                }
+                allPosts.value.push({ ...data, id: postId, content: md.render(content), img: imgUrl, path });
             }
             allPosts.value.sort((a, b) => {
                 const dateA = a.date.split('-').reverse().join('-');
