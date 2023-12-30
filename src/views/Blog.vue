@@ -1,7 +1,7 @@
 <template>
     <div class="w-full h-full">
-        <div class="grid grid-rows-auto grid-cols-3 gap-10 mt-10 w-full relative">
-            <router-link class="card bg-base-100 shadow-2xl w-full" :to="`/blog/${post.id}`" v-for="post in paginatedPosts" :key="post.id">
+        <div class="grid grid-rows-auto md:grid-cols-3 grid-cols-1 gap-10 mt-10 w-full relative">
+            <router-link class="card bg-base-100 shadow-2xl  w-full" :to="`/blog/${post.id}`" v-for="post in paginatedPosts" :key="post.id">
                 <figure><img :src="post.img" :alt="post.alt" /></figure>
                 <div class="card-body">
                     <h2 class="card-title">

@@ -1,5 +1,5 @@
 <template>
-    <footer class="footer items-center p-4 bg-neutral text-neutral-content fixed inset-x-0 w-full bottom-0">
+    <footer class="footer items-center p-4 bg-neutral text-neutral-content fixed inset-x-0 w-full bottom-0 w-full">
         <div class="footer bg-neutral text-neutral-content w-3/4 mx-auto justify-between flex">
             <aside class="items-center grid-flow-col">
                 <p>Copyright © 2023 - All right reserved</p>
